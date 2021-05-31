@@ -1,0 +1,46 @@
+.router-link-active{
+    color: rgb(238, 238, 238) !important;
+}
+
+.router-link-active{
+    background-color: rgb(43, 43, 43);
+    border-radius: 5px;
+}
+
+.nav-item{
+    /* margin: 0.5rem; */
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:hover{
+    color: aliceblue;
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+
+@media (max-width:767px){
+    .nav-link{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 3px 0;
+    }
+}
+
+@media (min-width:768px){
+    .nav-item a:hover{
+        background-color: rgb(43, 43, 43);
+        border-radius: 5px;
+    }
+    .nav-link{
+        padding-left: 0.7rem !important;
+        padding-right: 0.7rem !important;
+    }
+}

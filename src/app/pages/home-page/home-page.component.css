@@ -1,0 +1,13 @@
+.btn-hacr{
+    outline: none;
+    border: none;
+    margin: 0 0.5rem;
+}
+
+tbody tr td{
+    vertical-align: middle;
+}
+
+.content div a{
+    text-decoration: none;
+}
